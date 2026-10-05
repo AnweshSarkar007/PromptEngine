@@ -1,0 +1,129 @@
+{
+  "task": "generate_product_image",
+  "reference_images": {
+    "product_identity": {
+      "images": [
+        {
+          "filename": "front.jpg"
+        },
+        {
+          "filename": "side.jpg"
+        },
+        {
+          "filename": "lid.jpg"
+        }
+      ],
+      "primary_reference": "front.jpg",
+      "role": "exclusive source of truth for product identity"
+    }
+  },
+  "product": {
+    "name": "Glasafe Borosilicate Container",
+    "category": "Glass container",
+    "dimensions_cm": {
+      "width": 22,
+      "height": 7.5,
+      "depth": 15,
+      "diameter": null
+    },
+    "materials": [
+      "Borosilicate glass",
+      "Silicone"
+    ],
+    "colour": "clear",
+    "transparency": "Transparent",
+    "features": [
+      "Air vent lid",
+      "Snap-lock clips"
+    ],
+    "important_details": "Vent sits on the left of the lid.",
+    "identity_lock": "Use all uploaded product reference images together as a multi-angle reference set for the same exact product. Preserve the exact product geometry, proportions, dimensions, material, transparency, colours, lid structure, locking mechanism, vent, handles, silicone parts, logo placement, edges, curves, wall thickness and all visible construction details. Do not redesign, reinterpret, simplify, stretch, widen, shorten or substitute the product."
+  },
+  "scene": {
+    "type": "Kitchen",
+    "environment": "Modern Indian kitchen with neutral cabinetry.",
+    "surroundings": "",
+    "background": "",
+    "time_of_day": ""
+  },
+  "product_state": {
+    "states": [
+      "Lid attached",
+      "Vent open"
+    ],
+    "custom": ""
+  },
+  "contents": {
+    "enabled": true,
+    "type": "Food",
+    "name": "Noodles",
+    "appearance": "",
+    "fill_level": "",
+    "steam": "None"
+  },
+  "human_model": {
+    "enabled": true,
+    "gender_presentation": "Female",
+    "age_range": "25–35",
+    "appearance": "Indian",
+    "clothing": "",
+    "action": "Placing the product inside a microwave",
+    "visible_body_area": "",
+    "expression": "",
+    "styling_notes": ""
+  },
+  "camera": {
+    "angle": "3/4 front",
+    "distance": "Medium",
+    "lens": "",
+    "depth_of_field": "",
+    "perspective": "Natural"
+  },
+  "composition": {
+    "product_position": "",
+    "product_frame_occupancy_percent": 50,
+    "style": "Lifestyle",
+    "framing": "Medium",
+    "space_for_text": {
+      "enabled": false,
+      "position": ""
+    }
+  },
+  "lighting": {
+    "type": "Natural daylight",
+    "direction": "",
+    "shadow_style": "Natural",
+    "reflection_level": "",
+    "colour_temperature": ""
+  },
+  "visual_style": {
+    "photography_style": "Photorealistic",
+    "realism_level": 9,
+    "avoid_ai_look": true,
+    "avoid_ai_look_instruction": "Avoid artificial AI-looking textures, excessive smoothness, unrealistic reflections, fake depth of field, warped anatomy, incorrect perspective and overly stylized Pinterest-like aesthetics."
+  },
+  "output": {
+    "width": 1080,
+    "height": 1350,
+    "aspect_ratio": "4:5",
+    "intended_use": "Meta Ads",
+    "quality": "maximum"
+  },
+  "restrictions": [
+    "Do not change product geometry.",
+    "Do not alter product proportions.",
+    "Do not modify the lid.",
+    "Do not modify the logo.",
+    "Do not invent handles or accessories.",
+    "Do not change product colours.",
+    "Do not make transparent glass opaque.",
+    "Do not substitute a generic product.",
+    "Do not distort hands.",
+    "Do not create extra fingers.",
+    "Do not create duplicate products unless requested.",
+    "Do not add unwanted text.",
+    "Do not create unrealistic reflections.",
+    "Do not make the scene excessively stylized."
+  ],
+  "final_instruction": "Generate a highly photorealistic lifestyle image using the uploaded multi-angle new-product references as the exclusive source of truth for the product. Preserve the exact geometry, proportions, borosilicate glass and silicone construction, clear colour, full transparency and logo placement. Treat front.jpg as the primary product reference. Keep these features exactly as shown in the references: Air vent lid and Snap-lock clips. Important details to preserve: Vent sits on the left of the lid. Do not redesign, simplify, stretch or substitute the product. Show the glass container in a kitchen setting: Modern Indian kitchen with neutral cabinetry. The lid remains attached and the vent is open. Include noodles inside the glass container. A 25–35-year-old Indian woman is placing the product inside a microwave. Use a natural 3/4 front camera angle, a medium shot and medium framing. Light the scene with natural daylight and natural shadows. The product fills roughly 50% of the frame. Compose the image at 1080×1350 px (4:5) for Meta Ads at maximum quality. Maintain realistic real-world scale and avoid any AI-looking product distortion."
+}

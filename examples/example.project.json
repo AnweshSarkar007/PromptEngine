@@ -1,0 +1,107 @@
+{
+  "format": "product-image-prompt-builder-project",
+  "schema_version": 1,
+  "app_version": "1.0.0",
+  "saved_at": "2026-10-05T12:29:04+00:00",
+  "relative_image_paths": {},
+  "data": {
+    "reference": {
+      "product_images": [
+        "C:/ProductReferences/front.jpg",
+        "C:/ProductReferences/side.jpg",
+        "C:/ProductReferences/lid.jpg"
+      ],
+      "primary_path": "C:/ProductReferences/front.jpg"
+    },
+    "product": {
+      "name": "Glasafe Borosilicate Container",
+      "category": "Glass container",
+      "width": 22.0,
+      "height": 7.5,
+      "depth": 15.0,
+      "diameter": null,
+      "materials": [
+        "Borosilicate glass",
+        "Silicone"
+      ],
+      "other_material": "",
+      "colour": "clear",
+      "transparency": "Transparent",
+      "features": "- Air vent lid\n- Snap-lock clips\n",
+      "important_details": "Vent sits on the left of the lid."
+    },
+    "identity": {
+      "enabled": true,
+      "custom": ""
+    },
+    "scene": {
+      "scene_type": "Kitchen",
+      "environment": "Modern Indian kitchen with neutral cabinetry.",
+      "surroundings": "",
+      "background": "",
+      "time_of_day": ""
+    },
+    "state": {
+      "states": [
+        "Lid attached",
+        "Vent open"
+      ],
+      "custom": ""
+    },
+    "contents": {
+      "enabled": true,
+      "content_type": "Food",
+      "name": "Noodles",
+      "appearance": "",
+      "fill_level": "",
+      "steam": "None"
+    },
+    "model": {
+      "enabled": true,
+      "gender_presentation": "Female",
+      "age_range": "25–35",
+      "appearance": "Indian",
+      "clothing": "",
+      "action": "Placing the product inside a microwave",
+      "visible_body_area": "",
+      "expression": "",
+      "styling_notes": ""
+    },
+    "camera": {
+      "angle": "3/4 front",
+      "distance": "Medium",
+      "lens": "",
+      "depth_of_field": "",
+      "perspective": "Natural"
+    },
+    "composition": {
+      "product_position": "",
+      "occupancy_percent": 50,
+      "style": "Lifestyle",
+      "framing": "Medium",
+      "space_for_text": false,
+      "text_position": "Top"
+    },
+    "lighting": {
+      "type": "Natural daylight",
+      "direction": "",
+      "shadow_style": "Natural",
+      "reflection_level": "",
+      "colour_temperature": ""
+    },
+    "style": {
+      "photography_style": "Photorealistic",
+      "realism_level": 9,
+      "avoid_ai_look": true
+    },
+    "output": {
+      "width": 1080,
+      "height": 1350,
+      "intended_use": "Meta Ads",
+      "quality": "Maximum"
+    },
+    "restrictions": {
+      "text": "- Do not change product geometry.\n- Do not alter product proportions.\n- Do not modify the lid.\n- Do not modify the logo.\n- Do not invent handles or accessories.\n- Do not change product colours.\n- Do not make transparent glass opaque.\n- Do not substitute a generic product.\n- Do not distort hands.\n- Do not create extra fingers.\n- Do not create duplicate products unless requested.\n- Do not add unwanted text.\n- Do not create unrealistic reflections.\n- Do not make the scene excessively stylized."
+    }
+  }
+}

@@ -1,0 +1,79 @@
+I'm attaching an OLD product photo from our existing catalogue. I will create a NEW photo of a
+DIFFERENT, new product in the same vibe, using a separate tool.
+
+Study the photo and describe ONLY its photography and scene: setting, props, camera, lighting,
+composition, mood, any person, any food or drink.
+Do NOT describe the old product's shape, design, colour, logo or features.
+
+Reply with ONLY the JSON below, filled in, inside one ```json code block. Rules:
+- Where options are separated by "|", copy exactly ONE of them (for [ ] lists you may pick
+  several). If none fits, write your own short text instead.
+- Use "" for anything you cannot tell. Do not invent details that are not in the photo.
+- If there is no food/drink or no person, set that section's "enabled" to false.
+
+{
+  "format": "product-image-prompt-builder/brief-v1",
+  "scene": {
+    "type": "Kitchen | Dining table | Microwave | Refrigerator | Car interior | Office | Gym | Outdoor | Restaurant | Cafe | Bedroom | Living room | Studio | Ecommerce",
+    "environment": "one or two sentences describing the setting",
+    "surroundings": "props and objects around the product",
+    "background": "Sharp | Slightly blurred | Strong depth of field | Clean studio | Natural environment",
+    "time_of_day": "Morning | Afternoon | Evening | Night | Not applicable"
+  },
+  "product_state": {
+    "states": [
+      "Closed | Open | Lid attached | Lid removed | Vent open | Vent closed | Empty | Filled | Stacked | Being held | Being carried | Being used | Inside appliance | On table"
+    ],
+    "custom": ""
+  },
+  "contents": {
+    "enabled": true,
+    "type": "Food | Liquid | Both",
+    "name": "",
+    "appearance": "",
+    "fill_level": "25% | 50% | 75% | 90% | Full",
+    "steam": "None | Subtle | Visible"
+  },
+  "human_model": {
+    "enabled": true,
+    "gender_presentation": "Female | Male | Neutral | Any",
+    "age_range": "Child | Teen | 18–25 | 25–35 | 35–50 | 50+",
+    "appearance": "",
+    "clothing": "",
+    "action": "start with an -ing verb, e.g. Holding the product",
+    "visible_body_area": "Hands only | Upper body | Half body | Full body",
+    "expression": "Natural | Happy | Neutral | Focused | Candid",
+    "styling_notes": ""
+  },
+  "camera": {
+    "angle": "Eye level | Top-down | 3/4 front | 3/4 rear | Side view | Low angle | High angle | Close-up | Macro | Wide angle | Over-the-shoulder | POV",
+    "distance": "Extreme close-up | Close-up | Medium | Medium wide | Wide",
+    "lens": "24mm | 35mm | 50mm | 85mm | Macro | Auto",
+    "depth_of_field": "Deep focus | Moderate | Shallow | Very shallow",
+    "perspective": "Natural | Slightly cinematic | Ecommerce accurate"
+  },
+  "composition": {
+    "product_position": "Center | Left | Right | Foreground | Midground | Background",
+    "product_frame_occupancy_percent": 50,
+    "style": "Product hero | Lifestyle | Editorial | Ecommerce | UGC | Advertising | Premium commercial | Minimal",
+    "framing": "Tight | Medium | Loose",
+    "space_for_text": {
+      "enabled": false,
+      "position": "Top | Bottom | Left | Right"
+    }
+  },
+  "lighting": {
+    "type": "Natural daylight | Soft studio | Hard studio | Window light | Warm indoor | Cool indoor | Golden hour | Cinematic | High-key | Low-key",
+    "direction": "Front | Back | Left | Right | Top | Mixed",
+    "shadow_style": "Soft | Natural | Dramatic | Minimal",
+    "reflection_level": "Natural | Controlled | High gloss | Minimal",
+    "colour_temperature": "Warm | Neutral | Cool"
+  },
+  "visual_style": {
+    "photography_style": "Photorealistic | Commercial | Premium | Lifestyle | UGC | Editorial | Ecommerce | Luxury | Documentary | Minimal | Cinematic",
+    "realism_level": 9
+  },
+  "output": {
+    "aspect_ratio": "shape of the photo, e.g. 1:1, 4:5, 3:4, 9:16"
+  }
+}

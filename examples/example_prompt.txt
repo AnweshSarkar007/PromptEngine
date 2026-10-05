@@ -1,0 +1,29 @@
+Generate a highly photorealistic lifestyle image using the uploaded multi-angle new-product references as the exclusive source of truth for the product. Preserve the exact geometry, proportions, borosilicate glass and silicone construction, clear colour, full transparency and logo placement. Treat front.jpg as the primary product reference. Keep these features exactly as shown in the references: Air vent lid and Snap-lock clips. Important details to preserve: Vent sits on the left of the lid. Do not redesign, simplify, stretch or substitute the product. Show the glass container in a kitchen setting: Modern Indian kitchen with neutral cabinetry. The lid remains attached and the vent is open. Include noodles inside the glass container. A 25–35-year-old Indian woman is placing the product inside a microwave. Use a natural 3/4 front camera angle, a medium shot and medium framing. Light the scene with natural daylight and natural shadows. The product fills roughly 50% of the frame. Compose the image at 1080×1350 px (4:5) for Meta Ads at maximum quality. Maintain realistic real-world scale and avoid any AI-looking product distortion.
+
+REFERENCE IMAGES
+Product identity (exclusive source of truth for product identity):
+  1. front.jpg  [PRIMARY]
+  2. side.jpg
+  3. lid.jpg
+
+PRODUCT IDENTITY LOCK
+Use all uploaded product reference images together as a multi-angle reference set for the same exact product. Preserve the exact product geometry, proportions, dimensions, material, transparency, colours, lid structure, locking mechanism, vent, handles, silicone parts, logo placement, edges, curves, wall thickness and all visible construction details. Do not redesign, reinterpret, simplify, stretch, widen, shorten or substitute the product.
+
+REALISM
+Avoid artificial AI-looking textures, excessive smoothness, unrealistic reflections, fake depth of field, warped anatomy, incorrect perspective and overly stylized Pinterest-like aesthetics.
+
+THINGS TO AVOID
+- Do not change product geometry.
+- Do not alter product proportions.
+- Do not modify the lid.
+- Do not modify the logo.
+- Do not invent handles or accessories.
+- Do not change product colours.
+- Do not make transparent glass opaque.
+- Do not substitute a generic product.
+- Do not distort hands.
+- Do not create extra fingers.
+- Do not create duplicate products unless requested.
+- Do not add unwanted text.
+- Do not create unrealistic reflections.
+- Do not make the scene excessively stylized.
